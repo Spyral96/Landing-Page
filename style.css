@@ -19,12 +19,18 @@
     
 }
 
+.header li a{
+    color: inherit;
+    text-decoration:none ;
+}
+
 #logo{
     display: flex;
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 10%;
+    font-weight: bold;
 }
 
 /*SECTION 2 */
@@ -33,6 +39,7 @@
     display: flex;
     background-color: #1F2937;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .left-side-section-two{
@@ -43,7 +50,7 @@
 
 .right-side-section-two{
     flex-grow: 1;
-    width: 30%;
+    width: 25%;
     height: auto;
     margin-right: 10%;
 }
@@ -57,10 +64,13 @@
 }
 
 #sign-up{
-    background-color: rgb(70, 136, 221);
+    background-color: #3882F6;
     width:100px;
     height: 30px;
     margin-top: -28px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
 }
 
 .descript{
@@ -139,21 +149,32 @@ h1 {
     display: flex;
     margin-top: 75px;
     margin-bottom: 75px;
-    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
     
 }
 
 .footer-left {
     flex-grow: 2;
+    color: #F9FAF8;
+
     
-    justify-content: center;
-    border: solid 4px red;
+    
+    
+}
+
+.footer-left span {
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 #sign-up2 {
     flex-grow: 1;
-    background-color: rgb(70, 136, 221);
+    background-color: #3882F6;
     justify-content: center;
     border-radius: 5px;
+    color: #f3f3f3;
+    border: solid 3px white;
 
 }
